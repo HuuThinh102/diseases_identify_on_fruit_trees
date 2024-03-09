@@ -104,4 +104,4 @@ dependencies:
       - watchdog==4.0.0
       - werkzeug==3.0.1
       - wrapt==1.14.1
-prefix: /Users/huuthinhtran/Documents/Niên luận ngành/Code Gemini/venv
+
