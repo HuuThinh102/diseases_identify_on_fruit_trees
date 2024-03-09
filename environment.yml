@@ -1,9 +1,29 @@
-name: /Users/huuthinhtran/Documents/Niên luận ngành/Code Gemini/venv
+name: Gemini ChatBox
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - python=3.11.8
-  - pip
+  - conda
+  - openssl=3.2.1=hd75f5a5_0
+  - python=3.11.8=h9f0c242_0_cpython
+  - python-dotenv=1.0.1=pyhd8ed1ab_0
+  - readline=8.2=hca72f7f_0
+  - setuptools=68.2.2=py311hecd8cb5_0
+  - wheel=0.41.2=py311hecd8cb5_0
   - pip:
-      - python-dotenv=1.0.1
-
+      - google-ai-generativelanguage==0.4.0
+      - google-api-core==2.17.1
+      - google-auth==2.28.1
+      - google-auth-oauthlib==1.0.0
+      - google-generativeai==0.4.0
+      - google-pasta==0.2.0
+      - googleapis-common-protos==1.62.0
+      - keras==2.12.0
+      - numpy==1.23.5
+      - pandas==2.2.1
+      - pillow==10.2.0
+      - pip==24.0
+      - scipy==1.12.0
+      - streamlit==1.32.0
+      - tensorflow-macos==2.12.0
+      - watchdog==4.0.0
