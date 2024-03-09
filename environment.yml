@@ -3,6 +3,8 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - python=3.11.8
+  - pip
   - bzip2=1.0.8
   - ca-certificates=2024.2.2
   - libexpat=2.6.1
