@@ -1,0 +1,9 @@
+0 Cháy lá
+1 Lá không bệnh
+2 Nấm hồng
+3 Nhện đỏ
+4 Rầy phấn
+5 Rệp sáp
+6 Sâu đục thân
+7 Sâu đục trái
+8 Thân không bệnh
