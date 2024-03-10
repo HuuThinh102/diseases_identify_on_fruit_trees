@@ -10,8 +10,7 @@ import textwrap
 import google.generativeai as genai
 
 import numpy as np
-from PIL import Image, ImageOps
-import streamlit as st
+from PIL import Image
 from keras.models import load_model
 from keras import models
 from keras.preprocessing import image
@@ -24,7 +23,7 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 np.set_printoptions(suppress=True)
 # Tải model
-model = load_model("model/CNN.h5", compile=False)
+model = load_model("model/keras_model.h5", compile=False)
 class_names = open("model/labels.txt", "r").readlines()
 
 
@@ -55,7 +54,7 @@ if uploaded_file is not None:
 
 if uploaded_file is not None:
     image = image.convert('RGB')
-    image = image.resize((95, 95))
+    image = image.resize((224, 224))
     img_array = img_to_array(image)
     img_array = np.expand_dims(img_array, axis=0)
     prediction = model.predict(img_array)
