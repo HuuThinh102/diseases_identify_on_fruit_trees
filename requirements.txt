@@ -1,0 +1,13 @@
+google-ai-generativelanguage==0.4.0
+google-generativeai==0.4.0
+keras==2.12.0
+numpy==1.23.5
+pandas==2.2.1
+pillow==10.2.0
+scipy==1.12.0
+streamlit==1.32.0
+tensorflow-macos==2.12.0
+watchdog==4.0.0
+python-dotenv
+
+
