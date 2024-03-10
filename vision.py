@@ -12,7 +12,6 @@ import google.generativeai as genai
 import numpy as np
 from PIL import Image, ImageOps
 import streamlit as st
-import tensorflow as tf
 from keras.models import load_model
 from keras import models
 from keras.preprocessing import image
